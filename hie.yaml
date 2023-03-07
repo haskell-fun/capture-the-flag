@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "capture-the-flag:lib"
+
+    - path: "./app/Main.hs"
+      component: "capture-the-flag:exe:capture-the-flag-exe"
+
+    - path: "./app/Paths_capture-the-flag.hs"
+      component: "capture-the-flag:exe:capture-the-flag-exe"
+
+    - path: "./test"
+      component: "capture-the-flag:test:capture-the-flag-test"
+
